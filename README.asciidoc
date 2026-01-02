@@ -9,7 +9,7 @@ However the original commit history will be squashed into a new commit.
 
 To retain this history, you could execute this in the empty working dir:
 ```sh
-git clone https://github.com/mirrors-git/TEMPLET-05-Added-GNUmakefile.asciidoc.git .
+git clone https://github.com/mirrors-git/TEMPLET-05-Added-GNUmakefile.git .
 git remote set-url origin https://github.com/USER/REPO.git
 git push -f -u origin main
 ```
